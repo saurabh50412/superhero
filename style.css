@@ -1,0 +1,166 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+
+body{
+    background-image: url('./assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lilita One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+}
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+    position:fixed;
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    border: 4px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#header{
+    margin:auto 0   ;
+    margin-left: 1em;
+    margin-right: auto;
+    font-weight:600;
+}
+
+#header a{
+    color:rgb(247, 55, 7);
+    
+}
+
+#header a:hover{
+    color:rgb(240, 123, 6);
+}
+
+#img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:150px;
+}
+
+
+#img-container  img {
+    width: 17em;
+    height: 17em;
+}
+
+
+.card-container{
+    margin: 1em auto;
+}
+
+.card-img-top{
+     margin: .75em auto;
+}
+
+.card-title{
+    margin-bottom:.75em !important; 
+}
+
+.card:hover{
+    background-color: rgb(240, 123, 6) !important;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin:1em;
+    align-items: center;
+}
+
+#search-input{
+    height: 30px;
+}
+
+#search-input:hover{
+    border-color: white;
+}
+
+.search-btn{
+    width:4.2em;
+    height:30px;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-left: .75em;
+    cursor: pointer;
+    background-color:rgb(247, 55, 7);
+}
+
+.search-btn:hover{
+    background-color: rgb(240, 123, 6);
+    color:white;
+    border-color: white;
+}
+
+#search-input{
+    border-radius: 20px;
+    border:2px solid black;
+    padding-left:.75em;
+}
+
+.btn-fav{
+    width:7.5em;
+    height: 30px;
+    background-color: rgb(247, 55, 7);
+    margin:0 2em;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;    
+}
+
+.btn-fav:hover{
+    background-color: rgb(240, 123, 6);
+    color:white;
+    border-color: white;
+}
+
+.btn-home{
+    width:5.5em;
+    height: 30px;
+    background-color: rgb(247, 55, 7);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.btn-home:hover{
+    background-color: rgb(240, 123, 6);
+    color:white;
+    border-color: white;
+}
+
+.btn{
+    color: black !important;
+    background-color: rgb(247, 55, 7) !important;
+    border-color: black !important;
+    margin-left: .5em !important;
+}
+
+.btn:hover{
+    color:white !important;
+    border-color:white !important;
+}
+
+
